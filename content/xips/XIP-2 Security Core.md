@@ -108,7 +108,7 @@ This smart contract will hold the users funds, and will be controlled cryptograp
 
 To execute low sensitivity actions, such as opening a trade position, users would only require a single signature from the browser key.
 
-To execute high sensitivity actions, such as withdrawing funds or adding a whitelisted withdrawal address, users would require two signatures – one from a browser key and one from an MFA key. This protects the users account if someone were able to get access to their device.
+To execute high sensitivity actions, such as withdrawing funds or adding a allowlisted withdrawal address, users would require two signatures – one from a browser key and one from an MFA key. This protects the users account if someone were able to get access to their device.
 
 A third key, the recovery key, is used to add a new browser key to the users smart account. This is a crucial component for robustness of the system: avoiding catastrophe when a user loses their device, and enabling the user to control their smart account from multiple devices.
 
